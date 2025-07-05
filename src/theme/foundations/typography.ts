@@ -29,16 +29,71 @@ const typographyStyle = (theme: Theme): TypographyOptions => ({
     fontWeightLight: 400,
     fontWeightRegular: 500,
     fontWeightMedium: 600,
+    fontWeightBold: 700,
 
     h1: {
-        fontSize: typographyUtil.pxToRem(30),
+        fontSize: typographyUtil.pxToRem(20),
         fontWeight: 700,
-        lineHeight: typographyUtil.pxToRem(45),
+        lineHeight: typographyUtil.pxToRem(30),
+    },
 
-        [theme.breakpoints.up('md')]: {
-            fontSize: typographyUtil.pxToRem(48),
-            lineHeight: typographyUtil.pxToRem(62.5),
+    h2: {
+        fontSize: typographyUtil.pxToRem(20),
+        fontWeight: 600,
+        lineHeight: typographyUtil.pxToRem(30),
+    },
+
+    h3: {
+        fontSize: typographyUtil.pxToRem(16),
+        fontWeight: 600,
+        lineHeight: typographyUtil.pxToRem(24),
+    },
+
+    h4: {
+        fontSize: typographyUtil.pxToRem(12),
+        fontWeight: 600,
+        lineHeight: typographyUtil.pxToRem(18),
+    },
+
+    body1: {
+        fontSize: typographyUtil.pxToRem(14),
+        fontWeight: 400,
+        lineHeight: typographyUtil.pxToRem(20),
+    },
+
+    body2: {
+        fontSize: typographyUtil.pxToRem(12),
+        fontWeight: 400,
+        lineHeight: typographyUtil.pxToRem(18),
+    },
+
+    subtitle1: {
+        fontSize: typographyUtil.pxToRem(16),
+        fontWeight: 500,
+        lineHeight: typographyUtil.pxToRem(24),
+    },
+
+    subtitle2: {
+        fontSize: typographyUtil.pxToRem(12),
+        fontWeight: 600,
+        lineHeight: typographyUtil.pxToRem(18),
+
+        [theme.breakpoints.up('smallDesktop')]: {
+            fontSize: typographyUtil.pxToRem(14),
+            lineHeight: typographyUtil.pxToRem(21),
         },
+    },
+
+    caption: {
+        fontSize: typographyUtil.pxToRem(16),
+        fontWeight: 400,
+        lineHeight: typographyUtil.pxToRem(24),
+    },
+
+    button: {
+        fontSize: typographyUtil.pxToRem(14),
+        fontWeight: 600,
+        lineHeight: typographyUtil.pxToRem(21),
     },
 });
 
