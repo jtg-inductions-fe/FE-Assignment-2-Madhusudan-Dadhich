@@ -7,5 +7,26 @@ export const palette: PaletteOptions = {
     // TODO: Add necessary colors here
     primary: {
         main: COLORS.PRIMARY.MAIN,
+        contrastText: COLORS.PRIMARY.CONTRAST_TEXT,
+    },
+
+    error: {
+        main: COLORS.ERROR.MAIN,
+        light: COLORS.ERROR.LIGHT,
+    },
+
+    info: {
+        main: COLORS.INFO.MAIN,
+        light: COLORS.INFO.LIGHT,
+    },
+
+    success: {
+        main: COLORS.SUCCESS.MAIN,
+        light: COLORS.SUCCESS.LIGHT,
+    },
+
+    text: {
+        primary: COLORS.TEXT.PRIMARY,
+        secondary: COLORS.TEXT.SECONDARY,
     },
 };
