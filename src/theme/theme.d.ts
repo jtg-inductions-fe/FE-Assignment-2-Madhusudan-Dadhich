@@ -4,9 +4,7 @@ export declare module '@mui/material/styles/createMixins' {
         flexWrapper: (
             justifyContent: Alignment,
             alignItems: Alignment,
-            gap: number,
             direction: 'row' | 'column',
-            wrap: 'wrap' | 'nowrap',
         ) => CSSProperties;
     }
 }

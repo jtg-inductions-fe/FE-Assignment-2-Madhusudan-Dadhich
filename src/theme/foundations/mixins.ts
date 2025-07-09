@@ -36,16 +36,12 @@ const lineClamp = (lines: number = 1): CSSProperties => ({
 const flexWrapper = (
     justifyContent: Alignment = 'start',
     alignItems: Alignment = 'start',
-    gap: number = 0,
     direction: 'row' | 'column' = 'row',
-    wrap: 'wrap' | 'nowrap' = 'nowrap',
 ): CSSProperties => ({
     display: 'flex',
     justifyContent: justifyContent,
     alignItems: alignItems,
-    gap: gap,
     flexDirection: direction,
-    flexWrap: wrap,
 });
 
 export const mixins: MixinsOptions = {
